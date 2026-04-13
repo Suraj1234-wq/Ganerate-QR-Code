@@ -8,40 +8,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: aqua;
+  background-color: #169393;
 }
 
 .navbar {
-  height: 50vh;
-  width: 40vh;
-  background-color:aquamarine;
-  border-radius: 1.5rem;
+  margin: 50px 0;
 }
 
-h2{
+.navbar h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  color: #07e36e;
 }
 
-button {
-  height: 30px;
+.box1 button {
   cursor: pointer;
-  margin-left: 10px;
+  height: 40px;
+  border-radius: 0.3rem;
+  border: none;
+  width: 100px;
+  transition: 0.3s;
+  font-size: 18px;
 }
-button {
-  margin-top: 22px;
+.box1 button:hover {
+  transform: scale(1.03);
 }
 .box1 {
-  display: flex;
-  justify-content: center;
-
+  margin: 20px 0;
 }
- input {
-  height: 30px;
-  width: 50%;
-  margin-top: 20px;
-  font-size: 16px;
+ .box1 input {
+  height: 40px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 0.3rem;
+  border: none;
 }
 
 
@@ -50,4 +50,8 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.box2 img {
+  border-radius: 0.5rem;
 }
